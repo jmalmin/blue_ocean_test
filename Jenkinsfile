@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh 'ssh jmalmin@hugin'
+        sh 'ping hugin'
       }
     }
   }
